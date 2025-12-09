@@ -9,9 +9,17 @@ const Footer = () => {
         </div>
         <div className="socials">
           {socialImgs.map((socialImg, index) => (
-            <div key={index} className="icon">
-              <a href="">
-                <img src={socialImg.imgPath} alt="social icon" />
+            <div key={socialImg.id || index} className="icon">
+              <a
+                href={socialImg.link || "#"}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Visit my ${socialImg.name || 'social media'} page`}
+              >
+                <img
+                  src={socialImg.imgPath}
+                  alt={socialImg.alt || `${socialImg.name || 'Social media'} icon`}
+                />
               </a>
             </div>
           ))}
