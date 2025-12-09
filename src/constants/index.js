@@ -221,17 +221,17 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
-    link: "instagram.com/zaaad.7"
+    link: "https://www.instagram.com/zaaad.7"
   },
   {
     name: "x",
     imgPath: "/images/x.png",
-    link: "https://x.com/zmyn17"
+    link: "https://www.x.com/zmyn17"
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
-    link: "www.linkedin.com/in/zmnahm10"
+    link: "https://www.linkedin.com/in/zmnahm10"
   },
 ];
 
