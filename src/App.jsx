@@ -9,6 +9,9 @@ import Testimonials from "./sections/Testimonials.jsx"
 import Contact from "./sections/Contact.jsx"
 import Footer from "./sections/Footer.jsx"
 
+// TODO:
+// 1- add logo.svg
+
 const App = () => {
   return (
 		<>

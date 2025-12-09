@@ -143,12 +143,12 @@ const techStackIcons = [
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
-  {
+  /*{
     name: "Interactive Developer",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
-  },
+  }*/
   {
     name: "Project Manager",
     modelPath: "/models/git-svg-transformed.glb",
@@ -159,7 +159,20 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Zamyn brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Zamin consistently demonstrated strong problem-solving skills and a proactive approach to technical challenges. His ability to streamline workflows and enhance system reliability made a noticeable impact on our operations.",
+    imgPath: "/images/amazon.jpg",
+    logoPath: "/images/exp2.jpg",
+    title: "IT Support Engineer",
+    date: "Nov 2025 - Jan 2026",
+    responsibilities: [
+      "Provided technical support across hardware, software, and network systems, ensuring minimal downtime.",
+      "Diagnosed and resolved system issues to improve overall performance and user productivity.",
+      "Implemented small-scale automation scripts to simplify repetitive support tasks.",
+    ],
+  },
+
+  {
+    review: "Zamin brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Web Developer",
